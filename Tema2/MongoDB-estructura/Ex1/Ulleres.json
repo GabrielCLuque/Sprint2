@@ -1,0 +1,14 @@
+[
+    {
+        "Marca":"ray-ban",
+        "Graduacio":[0.25,1.50],
+        "Tipus":"flotant",
+        "Color_montura":"Blau",
+        "Color_vidres":["Negre","Negre"],
+        "Preu":125,
+        "_oid_client":null,
+        "_id_venedor":null,
+        "data_venta":{"$date": 1299715200000,"$time":121215}
+        
+    }
+    ]

@@ -1,0 +1,16 @@
+[
+{
+    "nom":"EtniaBarcelona", 
+    "direccio":{
+        "carrer":"Valencia",
+        "numero":"123",
+        "pis":"2",
+        "porta":" ",
+        "ciutat":"Barcelona",
+        "codipostal":"08025"
+ },
+    "telefon":"276392781",
+    "nif":"272927286J"
+
+}
+]
