@@ -1,0 +1,29 @@
+[
+    {
+        "Marca":"ray-ban",
+        "Proveidor":
+        {
+            "nom":"EtniaBarcelona", 
+            "direccio":{
+                "carrer":"Valencia",
+                "numero":"123",
+                "pis":"2",
+                "porta":" ",
+                "ciutat":"Barcelona",
+                "codipostal":"08025"
+         },
+            "telefon":"276392781",
+            "nif":"272927286J"
+        
+        },
+        "Graduacio":[0.25,1.50],
+        "Tipus":"flotant",
+        "Color_montura":"Blau",
+        "Color_vidres":["Negre","Negre"],
+        "Preu":125,
+        "_oid_client":null,
+        "_id_venedor":null,
+        "data_venta":{"$date": 1299715200000,"$time":121215}
+        
+    }
+    ]
