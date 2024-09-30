@@ -1,29 +1,45 @@
 [
-    {
-        "Marca":"ray-ban",
-        "Proveidor":
-        {
-            "nom":"EtniaBarcelona", 
-            "direccio":{
-                "carrer":"Valencia",
-                "numero":"123",
-                "pis":"2",
-                "porta":" ",
-                "ciutat":"Barcelona",
-                "codipostal":"08025"
-         },
-            "telefon":"276392781",
-            "nif":"272927286J"
-        
+  {
+    "_id": {
+      "$oid": "665ef74751267250ad5571f2"
+    },
+    "proveidor": {
+      "nom": "Òptica Centre",
+      "adreça": {
+        "carrer": "Carrer Major",
+        "numero": 25,
+        "pis": "1r",
+        "porta": 2,
+        "ciutat": "Girona",
+        "cp": "17002"
+      },
+      "telefon": "972123456",
+      "fax": "972654321",
+      "nif": "B12345678"
+    },
+    "marca": "Oakley",
+    "muntura": "esportiva",
+    "color_muntura": "negre",
+    "color_vidre_E": "gris",
+    "color_vidre_D": "verd",
+    "graduacio_vidre_E": 1.75,
+    "graduacio_vidre_D": 1.5,
+    "preu": 140,
+    "clients": [
+      {
+        "nom": "Joan",
+        "adreça": {
+          "carrer": "Carrer Nou",
+          "numero": 12,
+          "pis": "3r",
+          "porta": 1,
+          "ciutat": "Girona",
+          "cp": "17001"
         },
-        "Graduacio":[0.25,1.50],
-        "Tipus":"flotant",
-        "Color_montura":"Blau",
-        "Color_vidres":["Negre","Negre"],
-        "Preu":125,
-        "_oid_client":null,
-        "_id_venedor":null,
-        "data_venta":{"$date": 1299715200000,"$time":121215}
-        
-    }
+        "telefon": "666123456",
+        "correu": "joan@example.com",
+        "id_staff": "00123"
+      }
     ]
+  }
+]
