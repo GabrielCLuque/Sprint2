@@ -1,0 +1,27 @@
+[{
+    "_id": "jose@gmail.com",
+    "nom": "Jose",
+    "codipostal": "08025",
+    "telefon": "276392781",
+    "correu": "jose@gmail.com",
+    "_oid_client_recomanacio": null,
+    "vendes": [
+        {
+            "id_proveidor": "etnia-barcelona",
+            "gafa": {
+                "marca": "ray-ban",
+                "graduacio": [0.25, 1.50],
+                "tipus": "flotant",
+                "color_montura": "Blau",
+                "color_vidres": ["Negre", "Negre"],
+                "preu": 125
+            },
+            "data_venta": {
+                "$date": 1299715200000,
+                "$time": 121215
+            },
+            "preu_total": 125
+        }
+    ]
+ }
+]
